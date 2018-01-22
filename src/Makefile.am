@@ -2,4 +2,4 @@
 # Main source makefile
 #
 
-SUBDIRS=game
+SUBDIRS=utility game

@@ -9,6 +9,7 @@ AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
 AC_PROG_CXX
+AC_PROG_RANLIB
 
 # Checks for libraries.
 
@@ -20,5 +21,6 @@ AC_PROG_CXX
 
 AC_CONFIG_FILES([Makefile
                  src/Makefile
-                 src/game/Makefile])
+		 src/utility/Makefile
+		 src/game/Makefile])
 AC_OUTPUT
