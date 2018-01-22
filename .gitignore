@@ -1,0 +1,44 @@
+#
+# git ignore file
+#
+
+#
+# gcc generated files
+#
+
+*.o
+*.a
+*.so
+progue
+
+#
+# autotools generated files
+#
+
+autoscan.log
+configure.scan
+aclocal.m4
+autom4te.cache/
+depcomp
+install-sh
+missing
+*.in
+config.h
+configure
+config.status
+config.log
+Makefile
+.deps/
+stamp-h1
+
+#
+# emacs
+#
+
+\#*
+
+#
+# vi
+#
+
+*~
