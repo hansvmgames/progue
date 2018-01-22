@@ -17,6 +17,8 @@ AC_PROG_RANLIB
 
 # Checks for typedefs, structures, and compiler characteristics.
 
+AX_CXX_COMPILE_STDCXX_11
+
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
